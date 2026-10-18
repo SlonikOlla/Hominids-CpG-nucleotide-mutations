@@ -20,6 +20,19 @@ This is an archive of the **original Nibi scripts**, not a portable, turnkey wor
 
 This archive does **not** claim independently verified end-to-end execution from a fresh checkout. No code changes to numerical algorithms have been made during packaging. See `docs/WORKFLOW.md` for reconstruction steps.
 
+## Data availability
+
+The processed Phase 1 ancestral-site datasets and numerical analysis outputs are deposited in **two complementary Zenodo records**:
+
+- **Dataset Part 1 of 2:** [https://doi.org/10.5281/zenodo.23426694](https://doi.org/10.5281/zenodo.23426694)
+- **Dataset Part 2 of 2:** [https://doi.org/10.5281/zenodo.23442145](https://doi.org/10.5281/zenodo.23442145)
+
+**Both records are required** to reconstruct the complete ~13 GB archive. Download all archive parts and chunks from both records into the same directory, then follow `RECONSTRUCTION.txt` (included in both deposits) to reassemble the split parts, verify SHA256 checksums, reconstruct the original tar archive, and extract the data.
+
+These records contain processed ancestral-site datasets and numerical outputs, **not** the original UCSC multiz MAF files or full production PHYLIP alignments. The deposited data do not establish ancestral DNA methylation measurements.
+
+**Archived computational code:** [https://doi.org/10.5281/zenodo.23425960](https://doi.org/10.5281/zenodo.23425960).
+
 ## Citation and license
 
 Publication citation, DOI and a license should be added only after the authors select and verify them. No license is granted by default.
