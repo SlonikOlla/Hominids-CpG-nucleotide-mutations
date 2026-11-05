@@ -36,3 +36,9 @@ These records contain processed ancestral-site datasets and numerical outputs, *
 ## Citation and license
 
 Publication citation, DOI and a license should be added only after the authors select and verify them. No license is granted by default.
+
+## Related Homo CpG follow-up study (Phase 2; not part of this code archive)
+
+A separate follow-up manuscript, **“Ancestral CpG Retention and Reconstructed Ancient Methylation at Archaic-Introgressed Genomic Regions in Modern and Archaic Humans”**, extends the ancestral-site inputs to (i) selected common-callable modern/archaic Homo genotype comparisons, (ii) phased Neanderthal/Denisovan-introgressed versus opposite-homologue and population-control comparisons, and (iii) reconstructed ancient methylation at ancestry-annotated genomic locations.
+
+**Important scope boundary:** Phase 1 is the seven-primate ancestral reconstruction and context-evolution archive. The related Homo/introgression/methylation analyses belong to the separate `phase2_homo` workflow at Nibi and **are not reproduced by this repository**. The 2026 Human Biology submission materials, 30-cell Figure 5 analysis matrix, cluster-robust statistical outputs, and Phase 2 scripts have **not** been deposited here. Do not cite the Phase 1 software Zenodo record as proof those newer analyses are publicly reproducible. See [the Phase 2 release-status note](docs/PHASE2_HOMO_RELEASE_STATUS.md) for the data boundary and outstanding files.
